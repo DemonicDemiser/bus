@@ -349,8 +349,8 @@
 
 .hero{
 	display:flex;
-	width:150px;
-	height:150px;
+	width:90px;
+	height:90px;
 	flex-wrap:wrap;
 	margin: 150px auto;
 	background: #fff;
