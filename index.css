@@ -265,6 +265,18 @@ p{
 	right: 20px;
 }
 
+h9{
+	font-family: sans-serif;
+	text-align:center;
+	margin-top: 150px;
+	font-size: 150px;
+	font-weight: 800;
+	color:transparent;
+	background-image:url(https://media.giphy.com/media/xT1XGZndeDLlWvSDaU/giphy.gif);
+	background-position:center;
+	-webkit-background-clip:text;
+}
+
 /*--------offer----------*/
 
 .offer
