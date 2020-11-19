@@ -604,8 +604,8 @@ h9{
 	background: #fff;
 }
 
-
-
-
+html{
+  scroll-behavior: smooth;
+}
 
 
