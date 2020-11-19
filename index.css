@@ -46,7 +46,11 @@
   font-size: 30px;
   cursor: pointer;
 }
-
+span{
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  -webkit-background-clip: text;
+  color:transparent;
+}
 .banner-img
 {
   margin: 80px 115px;
@@ -205,7 +209,7 @@
 .btn-buy
 {
   width: 150px;
-  padding: 10 px 0;
+  padding: 10px 0;
   outline: none !important;
   border: 0;
   border-radius: 2px;
@@ -280,12 +284,7 @@ h9{
 
 /*--------offer----------*/
 
-.offer
-{
-  background-image: url(images/fashion.jpg);
-  background-size: cover;
-  background-position: center;
-}
+
 .row
 {
   margin: initial !important;
@@ -336,7 +335,7 @@ h9{
   width: 100%;
   height: 100%;
 }
-.fashion-blog h5;
+.fashion-blog h5
 {
   margin-top: 20px;
   font-weight: bold;
@@ -381,7 +380,7 @@ h9{
 }
 .payment img
 {
-  width::300px;
+  width:300px;
   cursor: pointer;
 }
 .insta-img img
@@ -488,7 +487,7 @@ h9{
 	box-shadow: 27px 41px 13px 4px rgba(0,0,0,0.10);
 }
 .small-img img{
-	max-width 100px;
+	max-width: 100px;
 }
 .small-img::after{
 	content:"";
@@ -545,7 +544,7 @@ h9{
 .card, .card-header{
 	background-color:transparent !important;
 	border:none !important;
-	padding: !important;
+	padding: 10px!important;
 	margin-bottom:20px;
 }
 .card{
