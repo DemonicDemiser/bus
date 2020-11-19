@@ -584,29 +584,60 @@ h9{
 
 
 /*-----contact us------*/
-.contact{
-	width: 80%;
-	margin: 50px auto;
+.contact-title
+{
+  margin-top: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
 }
-.contact-box{
-	background: #fff;
-	display: flex;
-	font-family: 'Poppins', sans-serif;
+.contact-title h1{
+  font-size: 32px;
+  line-height: 10px;
 }
-.contact-left{
-	font-family: 'Poppins', sans-serif;
-	flex-basis: 60%;
-	padding: 20px 30px;
+.contact-title h1
+{
+  font-size: 16px;
 }
-.contact-right{
-	font-family: 'Poppins', sans-serif;
-	flex-basis: 40%;
-	padding: 10px;
-	background: #fff;
+form
+{
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-control
+{
+  width: 600px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+input
+{
+  height: 45px;
+}
+form .submit
+{
+  background: #22c8ff;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
 }
 
-html{
-  scroll-behavior: smooth;
+form .submit:hover
+{
+  background-color: #2285ff;
+  cursor: pointer;
 }
-
-
+.minicontainer1{
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
