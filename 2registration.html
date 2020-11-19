@@ -11,34 +11,36 @@
 </head>
 <body>
 	<div class="form">
-		<h1>Регистрация</h1>
-		<div class="input-form">
-			<input type="text" placeholder="Имя">
-		</div>
-		<div class="input-form">
-			<input type="text" placeholder="Фамилия">
-		</div>
-		<div class="input-form">
-			<input type="text" placeholder="Phone Number">
-		</div>
-		<div class="input-form">
-			<input type="text" placeholder="Логин">
-		</div>
-		<div class="input-form">
-			<input type="text" placeholder="Email">
-		</div>
+		<h1>Register Here</h1>
+		<form action="registration.php" method="post">
+			<div class="input-form">
+				<input type="text" placeholder="Имя">
+			</div>
+			<div class="input-form">
+				<input type="text" placeholder="Фамилия">
+			</div>
+			<div class="input-form">
+				<input type="text" placeholder="Phone Number">
+			</div>
+			<div class="input-form">
+				<input type="text" placeholder="Логин">
+			</div>
+			<div class="input-form">
+				<input type="text" placeholder="Email">
+			</div>
 
-		<div class="input-form">
-			<span class="eye" onclick="myFunction()">
-				<i id="hide1" class="fa fa-eye"></i>
-				<i id="hide2" class="fa fa-eye-slash"></i>
-			</span>
-			<input type="password" id="password" placeholder="Пароль">
-			
-		</div>
-		<div class="input-form">
-			<input type="submit" value="Зарегистрироваться">
-		</div>
+			<div class="input-form">
+				<span class="eye" onclick="myFunction()">
+					<i id="hide1" class="fa fa-eye"></i>
+					<i id="hide2" class="fa fa-eye-slash"></i>
+				</span>
+				<input type="password" id="password" placeholder="Пароль">
+				
+			</div>
+			<div class="input-form">
+				<input type="submit" value="Sign Up">
+			</div>
+		</form>
 	</div>
 	<script>
 		function myFunction(){
