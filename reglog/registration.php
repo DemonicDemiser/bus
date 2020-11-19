@@ -1,7 +1,7 @@
 <?php
-
 session_start();
-header(location:login.php);
+header('location:registration.html');
+
 $con = mysqli_connect('localhost', 'root', '' ) or die("Unable to connect");
 
 mysqli_select_db($con, 'userregistration');
