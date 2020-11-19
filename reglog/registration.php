@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-
+header(location:login.php);
 $con = mysqli_connect('localhost', 'root', '' ) or die("Unable to connect");
 
 mysqli_select_db($con, 'userregistration');
@@ -15,7 +15,7 @@ $password = $_POST['password'];
 
 $s = "select * from usertable where login - '$login'";
 
-$result = myslqi_query($con, $s);
+$result = mysqli_query($con, $s);
 
 $num = mysqli_num_rows($result);
 
