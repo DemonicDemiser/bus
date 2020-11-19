@@ -13,15 +13,16 @@
 		<h1>Вход</h1>
 		<form action="validation.php" method="post">
 			<div class="input-form">
-				<input type="text" placeholder="Логин">
+				<input type="text" placeholder="Login" required>
 			</div>
 			<div class="input-form">
-				<input type="password" placeholder="Пароль" id="myInput">
+				<input type="password" placeholder="Password" id="myInput" required>
 				<span class="eye" onclick="myFunction()">
 					<i id="hide1" class="fa fa-eye"></i>
 					<i id="hide2" class="fa fa-eye-slash"></i>
 				</span>
 			</div>
+			<button type="submit" class="input-form"></button>
 			<div class="input-form">
 				<input type="submit" value="Войти">
 			</div>
