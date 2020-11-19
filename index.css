@@ -13,6 +13,7 @@
   margin-right: 10px;
   cursor: pointer;
 }
+
 .navbar-brand img
 {
   width: 160px;
@@ -547,7 +548,6 @@ h9{
 	padding: !important;
 	margin-bottom:20px;
 }
-
 .card{
 	box-shadow:0 2px 25px 0 rgba(110, 130, 208,.18);
 }
