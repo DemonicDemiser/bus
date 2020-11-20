@@ -287,7 +287,12 @@ p{
 	bottom: 20px;
 	right: 20px;
 }
-
+.black{
+  color:#4c4c4c !important;
+}
+.wid{
+  width:100%;
+}
 h9{
 	font-family: sans-serif;
 	text-align:center;
