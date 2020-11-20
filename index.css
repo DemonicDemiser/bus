@@ -269,11 +269,10 @@ spam{
 	position: relative;
 }
 
-.fa{
-	font-size: 40px !important;
-	margin-bottom: 20px;
+.service-box i .fa{
+  font-size: 40px !important;
+  margin-bottom: 20px;
 }
-
 p{
 	text-align: justify;
 }
