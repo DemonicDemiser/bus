@@ -289,10 +289,13 @@ p{
 }
 .black{
   color:#4c4c4c !important;
-}
-.wid{
   width:100%;
+  margin-bottom: 0px;
+  margin-top: 300px;
+  height:40px;
+  background: #f8f9fa;
 }
+
 h9{
 	font-family: sans-serif;
 	text-align:center;
@@ -306,7 +309,6 @@ h9{
 }
 
 /*--------offer----------*/
-
 
 .row
 {
