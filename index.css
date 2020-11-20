@@ -25,10 +25,19 @@
   transform: translateX(-50%);
   position: absolute;
 }
+
 .header
 {
+  margin-top: -80px;
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  z-index: 5;
   background: #f5f6fc;
-  margin-bottom: 80px;
+  opacity: 1;
+}
+html{
+  scroll-behavior: smooth;
 }
 .navbar
 {
