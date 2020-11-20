@@ -296,8 +296,12 @@ p{
   height:40px;
   background: #f8f9fa;
 }
-.col-md-4{
-
+.col-md-4:hover{
+  background: #0fc3f5;
+  cursor: pointer;
+  color: #fff;
+  box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+  transition:.5s;
 }
 h9{
 	font-family: sans-serif;
