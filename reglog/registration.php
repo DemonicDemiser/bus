@@ -14,7 +14,7 @@ $password = $_POST['password'];
 
 $s = "select * from usertable where login = '$login'";
 
-$result = mysqli_query($con, $s);
+$result = mysqli_query($con, $s);   
 
 $num = mysqli_num_rows($result);
 

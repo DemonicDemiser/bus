@@ -1,17 +1,18 @@
 <?php
+
+    session_start();
+
+    $con = mysqli_connect('localhost', 'root', '' ) or die("Unable to connect");
+
+    mysqli_select_db($con, 'userregistration');
+
     $name=$_POST['name'];
     $visitor_email=$_POST['email'];
     $message=$_POST['message'];
 
 
-    $to = "mukhammedaly7777@gmail.com";
-    $body="";
-
-    $body .= "From: ".$name."\r\n";
-    $body .= "Email: ".$visitor_email."\r\n";
-    $body .= "Message: ".$message."\r\n";
-
-    mail($to,$visitor_email,$body);
+    $reg = "insert into contactus(name, email, message) values ('$name','$visitor_email','$message')";
+    mysqli_query($con, $reg);
 //    $email_from='waabaki921642@gmail.com';
 //
 //    $email_subject="New Form Submission";
