@@ -11,7 +11,7 @@
     $body .= "Email: ".$visitor_email."\r\n";
     $body .= "Message: ".$message."\r\n";
 
-    mail($to,$visitor_email,$message);
+    mail($to,$visitor_email,$body);
 //    $email_from='waabaki921642@gmail.com';
 //
 //    $email_subject="New Form Submission";
